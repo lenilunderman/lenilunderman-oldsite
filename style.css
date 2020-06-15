@@ -97,7 +97,7 @@ nav ul a:hover {
 }
 
 .hero {
-  background-image: url(./img/2805485.jpg);
+  background-image: url(./img/2805485-2.jpg);
   background-position: center;
   background-size: cover;
   height: 90vh;
@@ -673,6 +673,9 @@ footer .footer-container .footer-social a:hover {
 }
 
 @media screen and (max-width: 495px) {
+  .hero h1 {
+    display: none;
+  }
   .aboutme-img img {
     display: none;
   }
